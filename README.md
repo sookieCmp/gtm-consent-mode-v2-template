@@ -22,4 +22,30 @@ It automatically:
 ## How It Works
 1. Default consent is set to denied (except security_storage)
 2. Configuration is exposed via `window.SCOOKIE_CONFIG`
-3. CMP script is loaded from:
+3. CMP script is loaded from:3. CMP script is loaded from:
+
+https://app.sookie.eu/api/cookie-consent
+
+4. Consent updates are handled by the CMP
+
+## Permissions Used
+
+- **inject_script**  
+Loads Sookie CMP script
+
+- **set_default_consent_state**  
+Sets initial consent values
+
+- **access_globals (write)**  
+Writes configuration to `window.SCOOKIE_CONFIG`
+
+## Security Notes
+- Only loads script from official Sookie domain
+- No user data is collected directly in template
+- Fully compliant with Consent Mode v2 requirements
+
+## Author
+Sookie CMP
+
+## Support
+support@sookie.eu
