@@ -1,5 +1,5 @@
 homepage: "https://sookie.eu"
 documentation: "https://web.sookie.eu/articles/sookie-installation-gtm"
 versions:
-  - sha: 13f84234c9caba8585967bda988982165d267b4a
+  - sha: 7dc241fcc1880ca5e06f6b121b81ba614b91f1b3
     changeNotes: Initial release of Sookie CMP GTM template with Consent Mode v2 support
